@@ -16,34 +16,31 @@ function getDataFunction() {
       // console.log(data.imie)
       // console.log(data.imie)
       // console.log(data.nazwisko)
-
       let createDiv = document.createElement('div')
       createDiv.id = 'dane-programisty'
-      
       // console.log(createDiv)
-      
-      // for (let person for data) {
-        let createLi = document.createElement('li')
-        createLi.innerText = `${data.imie} ${data.nazwisko}, ${data.zawod}, ${data.firma}`
-              
-        createDiv.appendChild(createLi)
-        // createLi.innerText = data.nazwisko
-        // createDiv.appendChild(createLi)
-        // createLi.innerText = data.zawod
-        // createDiv.appendChild(createLi)
-        // createLi.innerText = data.firma
-        // createDiv.appendChild(createLi)
-        
-        console.log(createDiv)
-        console.log(createLi)
-                  
+      // for (let person for data.lenght()) {
+      let createLi = document.createElement('li')
+      createLi.innerText = `${data.imie} ${data.nazwisko}, ${data.zawod}, ${data.firma}`
+
+      createDiv.appendChild(createLi)
+      // createLi.innerText = data.nazwisko
+      // createDiv.appendChild(createLi)
+      // createLi.innerText = data.zawod
+      // createDiv.appendChild(createLi)
+      // createLi.innerText = data.firma
+      // createDiv.appendChild(createLi)
+
+      console.log(createDiv)
+      console.log(createLi)
+
       // }
       document.body.appendChild(createDiv)
 
 
       // data.nazwisko sdata.zawod data.frma
       // `
-      // })
+    })
 
     .catch(error => console.log(error));
   // console.log(data.title)
